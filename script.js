@@ -38,7 +38,7 @@ function shuffleCards() {
     shuffleButton.disabled = true; // Disable the button during shuffle
     const cardArray = Array.from(cards);
     cardArray.forEach(card => {
-        // card.style.transition = "transform 0.5s ease-in-out";
+        card.style.transition = "transform 0.5s ease-in-out";
         // card.style.transform = "rotateY(0deg)";
     });
 
