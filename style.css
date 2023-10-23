@@ -12,18 +12,19 @@
         }
 
         .card-deck {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-    perspective: 1000px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+            perspective: 1000px;
+            margin: 0px 100px 0px 100px;
 }
 
     .card {
-        width: 200px;
-        height: 200px;
-        margin: 10px;
+        width: 300px;
+        height: 300px;
+        margin: 20px;
         transform: rotate(0deg);
         transition: transform 0.3s ease-in-out, transform 0.3s scale(1), transform 0.3s translateY(0);
         cursor: pointer;
@@ -51,6 +52,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            border-radius: 20px;
         }
 
         .card .front {
@@ -78,8 +80,8 @@
         .centered-card {
             transform: translate(-50%, -50%) rotate(0deg) !important;
             z-index: 1;
-            width: 400px;
-            height: 400px;
+            width: 600px;
+            height: 600px;
             position: absolute;
             top: 50%;
             left: 50%;
@@ -132,7 +134,7 @@
         .card .back p {
             color: white; /* Make the text white */
             text-align: center; /* Center the text */
-            margin-bottom: 100px; /* Add spacing from the image */
-            margin-top: -10px;
+            bottom: 20px;
+            position: absolute;
         }
         
