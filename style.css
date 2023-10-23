@@ -92,12 +92,13 @@
             bottom: 10px;
             left: 50%;
             transform: translateX(-50%);
-            background: #cf6b4b;
+            background: #963e21;
             color: white;
             border: none;
-            padding: 10px 20px;
             cursor: pointer;
             display: none;
+            padding: 10px 0;
+            width: 200px;
         }
 
         .shuffle-button {
